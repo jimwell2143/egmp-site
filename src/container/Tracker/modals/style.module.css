@@ -1,0 +1,731 @@
+.container-filled,
+.container-filled * {
+  box-sizing: border-box;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  box-shadow: var(
+    --shadow-modal-box-shadow,
+    0px 8px 24px 0px rgba(0, 0, 0, 0.04)
+  );
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-button {
+  background: var(--background-light, #fafafa);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.chevron-left {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.create-new-mr {
+  color: var(--primitive-black, #323232);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  width: 1160px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.selection-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label-and-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label2 {
+  color: var(--text-form-label, #9fa2a7);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.check {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.txtbox {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.lorem {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--monoline-regular, 400 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.chevron-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.input-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.check3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.txtbox2 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.placeholder {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 400 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.txtbox3 {
+  background: var(--background-disabled, #ededed);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.placeholder2 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--monoline-regular, 400 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.selection-dropdown2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 572px;
+  position: relative;
+}
+.check4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.input-file-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 572px;
+  position: relative;
+}
+.check10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-attachment {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.filename-pdf {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--monoline-semibold, 600 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.solid-button {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  background: var(--primary-base, #beac6f);
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.input-text-with-attached-button {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.check11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.txtbox4 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 0px 0px 0px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+._10-24-1997 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--monoline-regular, 400 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.icon-button2 {
+  background: var(--secondary-hover, #575757);
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content2 {
+  background: var(--secondary-base, #777777);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.calendar {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.calendar2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.employment-terms-conditions {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.input-text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 572px;
+  position: relative;
+}
+.check13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.allowance {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.selection-dropdown3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 90px;
+  position: relative;
+}
+.check14 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.input-number {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+._1 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--monoline-regular, 400 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.buttons {
+  background: var(--background-light, #fafafa);
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 32px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.increase {
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.chevron-up {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.decrease {
+  margin: -1px 0 0 0;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.chevron-down10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-up2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check16 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check17 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check18 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.check19 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.input-text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.check20 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.txtbox5 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 104px;
+  position: relative;
+  overflow: hidden;
+}
+.main-documents {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.check21 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-attachment2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.solid-button2 {
+  background: var(--background-light, #fafafa);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button2 {
+  color: var(--primitive-black, #323232);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.solid-button3 {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.content3 {
+  background: var(--primary-base, #beac6f);
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+
+
+.input-field {
+  height: 40px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--outline-outline, #E4E4E4);
+  background: var(--primitive-white, #FFF);
+  width: 100%;
+}
+
+.input-file {
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+  border-radius: 4px;
+  border: 1px solid var(--outline-outline, #E4E4E4);
+  background: var(--primitive-white, #FFF);
+  width: 100%;
+}
+
+.input-select {
+    width: 100%;
+}
+
+.input-checkbox {
+  border: 2px solid var(--outline-outline, #beac6f);
+  width: 100%;
+  height: 100%;
+} 
+
+.input-field:focus {
+  border: 2px solid var(--outline-outline, #beac6f);
+  outline: none;
+}

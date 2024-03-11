@@ -1,0 +1,824 @@
+.container-filled,
+.container-filled * {
+  box-sizing: border-box;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1112px;
+  position: relative;
+  overflow: hidden;
+}
+
+.input-field {
+  height: 40px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--outline-outline, #E4E4E4);
+  background: var(--primitive-white, #FFF);
+  width: 100%;
+}
+
+.input-file {
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+  border-radius: 4px;
+  border: 1px solid var(--outline-outline, #E4E4E4);
+  background: var(--primitive-white, #FFF);
+  width: 100%;
+}
+
+.input-select {
+    width: 100%;
+}
+
+.input-checkbox {
+  border: 2px solid var(--outline-outline, #beac6f);
+  width: 100%;
+  height: 100%;
+} 
+
+.input-field:focus {
+  border: 2px solid var(--outline-outline, #beac6f);
+  outline: none;
+}
+
+
+.sign-up-as-a-job-seeker {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 700 24px/32px "Inter", sans-serif);
+  font-style: normal;
+  font-weight: 600;  
+  
+  position: relative;
+  align-self: stretch;
+}
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-46462 {
+  background: var(--primary-muted, #f9f6f1);
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container-filled2 {
+  background: var(--background-light, #fafafa);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.content {
+  border-radius: 100px;
+  padding: 20px 19px 20px 19px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.cook {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.subinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.asdasd {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--caption-regular, 500 12px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.location-marker {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._123-faraway-street-al-olaya-riyadh-saudi-arabia {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 500 14px/24px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.php-25-k-35-k-monthly {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--heading-semibold, 600 20px/24px "Inter", sans-serif);
+  position: relative;
+}
+.asdasd2 {
+  color: var(--text-body, #454545);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 500 14px/24px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-button {
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  color: var(--primitive-black, #323232);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.text-button2 {
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.refresh {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button2 {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.selection-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 508px;
+  position: relative;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label-and-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label2 {
+  color: var(--text-form-label, #9fa2a7);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.form-required {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.txtbox {
+  background: var(--background-disabled, #ededed);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.select {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--monoline-regular, 500 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.chevron-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.this-is-a-help-text {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--caption-regular, 500 12px/16px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.form-required2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.txtbox2 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.select2 {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 500 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.chevron-down2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.field-group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1032px;
+  position: relative;
+}
+.password {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.minimum-of-eight-8-characters-must-have-at-least-one-1-uppercase-letter-must-have-at-least-one-1-lowercase-letter-must-have-at-least-one-1-special-character {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 500 14px/20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.input-text-with-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.txtbox3 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.placeholder {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 500 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.eye {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.eye2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.name-of-job-seeker {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.input-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.form-required3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-required4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.selection-dropdown2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.chevron-down3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.contact-information {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.form-required5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.input-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.form-required6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.flag-dropdown {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.form-flag {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.flag {
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  overflow: visible;
+}
+.chevron-down4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._63 {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 500 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.other-information {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.input-text-with-attached-button {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.form-required7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.txtbox4 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 0px 0px 0px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.mm-dd-yyyy {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 500 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.icon-button {
+  background: var(--secondary-hover, #575757);
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content2 {
+  background: var(--secondary-base, #777777);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.calendar {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-required8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.address {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.form-required9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-required10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-required11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-required12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-required13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.upload {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.input-file-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 508px;
+  position: relative;
+}
+.form-attachment {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.file-name {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 500 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.solid-button {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content3 {
+  background: var(--primary-base, #beac6f);
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button3 {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.selection-checkbox-item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.checkbox {
+  width: 18px;
+  height: 18px;
+  /* background: var(--primary-base, #beac6f);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  overflow: hidden; */
+}
+.content4 {
+  background: var(--background-light, #fafafa);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.item-name {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--monoline-regular, 500 14px/16px "Inter", sans-serif);
+  position: relative;
+}
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.solid-button2 {
+  background: var(--background-light, #fafafa);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.solid-button3 {
+  background: #beac6f;
+  border-radius: 4px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.button4 {
+  cursor: pointer;
+  color: white;
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}

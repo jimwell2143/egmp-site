@@ -1,0 +1,170 @@
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  background: var(--primitive-white, #ffffff);
+  width: 100%;
+  height: 363px;
+  position: relative;
+}
+.banner {
+  background: linear-gradient(
+    to left,
+    rgba(69, 69, 69, 0.72),
+    rgba(69, 69, 69, 0.72)
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.my-profile {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--display-bold, 700 32px/40px "Inter", sans-serif);
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 110px;
+  bottom: 0px;
+}
+.tab-items-line-tab-multiverse {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.content {
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.tab {
+  color: var(--primary-hover, #ad9c66);
+  text-align: left;
+  font: var(--monoline-semibold, 600 14px/16px "Inter", sans-serif);
+  position: relative;
+}
+.line {
+  background: var(--primary-base, #beac6f);
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 3px;
+  position: relative;
+}
+.tab2 {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--monoline-semibold, 600 14px/16px "Inter", sans-serif);
+  position: relative;
+}
+.line2 {
+  background: var(--primary-base, #beac6f);
+  opacity: 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 3px;
+  position: relative;
+}
+.information {
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(8% + 190px);
+  top: 200px;
+}
+.juan-santos-dela-cruz {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+}
+.subinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.badge {
+  background: var(--primary-muted, #f9f6f1);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.briefcase {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.badge2 {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.avatar {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: calc(7%);
+  top: 128px;
+}
+.content2 {
+  background: var(--background-dark, #f3f3f3);
+  border-radius: 180px;
+  border-style: solid;
+  border-color: var(--primitive-white, #ffffff);
+  border-width: 4.24px;
+  
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.user {
+  position: absolute;
+  left: -3.6px;
+  top: 14.4px;
+  overflow: visible;
+}

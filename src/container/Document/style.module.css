@@ -1,0 +1,308 @@
+.container-filled,
+.container-filled * {
+  box-sizing: border-box;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 380px;
+  height: 800px;
+  position: relative;
+  box-shadow: var(
+    --shadow-modal-box-shadow,
+    0px 8px 24px 0px rgba(0, 0, 0, 0.04)
+  );
+  overflow: hidden;
+}
+.documents {
+  color: var(--primitive-black, #323232);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-text-with-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.txtbox {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.placeholder {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 400 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.filter {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.filter-by {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.all-status {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+  width: 100px;
+}
+.chevron-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.list-10-entries {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.list-menu-lgu-list {
+  background: var(--primitive-white, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow-y: auto;
+}
+.list-item-lgu-list {
+  background: var(--primary-muted, #f9f6f1);
+  border-style: solid;
+  border-color: var(--primary-base, #beac6f);
+  border-width: 0px 4px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.content {
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 0px 0px 1px 0px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.juan-dela-cruz {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--monoline-semibold, 600 14px/16px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.badge {
+  background: var(--utility-success-base, #54d468);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.badge2 {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.content3 {
+  background: var(--primitive-white, #ffffff);
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 0px 0px 1px 0px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.juan-dela-cruz2 {
+  color: var(--primitive-black, #323232);
+  text-align: left;
+  font: var(--monoline-semibold, 600 14px/16px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.badge3 {
+  background: var(--utility-danger-base, #db4343);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.badge4 {
+  background: var(--text-disabled, #949494);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.pagination {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.prev {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron-double-left {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.prev2 {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.page {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.page-1-of-24 {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.next {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.next2 {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.chevron-double-right {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}

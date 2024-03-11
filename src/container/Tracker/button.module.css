@@ -1,0 +1,64 @@
+.frame-46464,
+.frame-46464 * {
+  box-sizing: border-box;
+}
+.frame-46464 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.solid-button {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  background: var(--primary-base, #beac6f);
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --caption-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--caption-semibold-font-size, 0.75rem);
+  line-height: var(--caption-semibold-line-height, 1rem);
+  font-weight: var(--caption-semibold-font-weight, 600);
+  position: relative;
+}
+.solid-button2 {
+  background: var(--utility-danger-base, #db4343);
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}

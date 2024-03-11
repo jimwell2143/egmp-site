@@ -1,0 +1,354 @@
+.frame-46465,
+.frame-46465 * {
+  box-sizing: border-box;
+}
+.frame-46465 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1312px;
+  position: relative;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.applying-for {
+  color: var(--primary-base, #beac6f);
+  text-align: justified;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.content {
+  border-radius: 100px;
+  padding: 20px 19px 20px 19px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.cook-baratie-restaurant {
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.cook-baratie-restaurant-span {
+  color: var(--text-heading, #323943);
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+}
+.cook-baratie-restaurant-span2 {
+  color: var(--primary-base, #beac6f);
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+}
+.subinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 1264px;
+  position: relative;
+}
+.location-marker {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._123-faraway-street-al-olaya-riyadh-saudi-arabia {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 400 14px/24px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.list-of-4-entries {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.text-button {
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.sort-ascending {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.container-filled2 {
+  background: var(--primary-muted, #f9f6f1);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--primary-base, #beac6f);
+  border-width: 0px 0px 0px 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.header2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.accepted {
+  color: var(--text-heading, #323943);
+  text-align: justified;
+  font: var(--subheading-semibold, 600 16px/18px "Inter", sans-serif);
+  position: relative;
+}
+.badge {
+  background: var(--utility-success-base, #54d468);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.badge2 {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.october-24-2023-10-00-00-am {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.ddfds {
+  color: var(--text-body, #454545);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 400 14px/24px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.container-filled3 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--primary-base, #beac6f);
+  border-width: 0px 0px 0px 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.job-offer {
+  color: var(--text-heading, #323943);
+  text-align: justified;
+  font: var(--subheading-semibold, 600 16px/18px "Inter", sans-serif);
+  position: relative;
+}
+.frame-46464 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.solid-button {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content2 {
+  background: var(--primary-base, #beac6f);
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button2 {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.solid-button2 {
+  background: var(--utility-danger-base, #db4343);
+  border-radius: 4px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.interview-with-employer {
+  color: var(--text-heading, #323943);
+  text-align: justified;
+  font: var(--subheading-semibold, 600 16px/18px "Inter", sans-serif);
+  position: relative;
+}
+.badge3 {
+  background: var(--deco-teal-base, #14b8a6);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.accepted-for-lineup {
+  color: var(--text-heading, #323943);
+  text-align: justified;
+  font: var(--subheading-semibold, 600 16px/18px "Inter", sans-serif);
+  position: relative;
+}
+.badge4 {
+  background: var(--utility-warning-base, #ffb803);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.accepted-application {
+  color: var(--text-heading, #323943);
+  text-align: justified;
+  font: var(--subheading-semibold, 600 16px/18px "Inter", sans-serif);
+  position: relative;
+}
+.badge5 {
+  background: var(--deco-blue-base, #3b82f6);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}

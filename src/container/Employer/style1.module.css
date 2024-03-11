@@ -1,0 +1,477 @@
+.content,
+.content * {
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1312px;
+  position: relative;
+  overflow: hidden;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-text-with-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.txtbox {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.placeholder {
+  color: var(--text-placeholder, #b5b5b7);
+  text-align: left;
+  font: var(--monoline-regular, 400 14px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.input-text-with-icon2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 250px;
+  position: relative;
+}
+.globe {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.solid-button {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content2 {
+  background: var(--primary-base, #beac6f);
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.search2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.solid-button2 {
+  background: var(--background-light, #fafafa);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.x {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button2 {
+  color: var(--primitive-black, #323232);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+._16-jobs-available {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container-filled2 {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.content3 {
+  border-radius: 100px;
+  padding: 20px 19px 20px 19px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.cook {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.subinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.asdasd {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--caption-regular, 400 12px/16px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.location-marker {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._123-faraway-street-al-olaya-riyadh-saudi-arabia {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 400 14px/24px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.php-25-k-35-k-monthly {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--heading-semibold, 600 20px/24px "Inter", sans-serif);
+  position: relative;
+}
+.asdasd2 {
+  color: var(--text-body, #454545);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 400 14px/24px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  height: 72px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.content4 {
+  background: var(--primary-base, #beac6f);
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.nurse {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._124-faraway-street-al-olaya-riyadh-saudi-arabia {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 400 14px/24px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.it-support {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._126-faraway-street-al-olaya-riyadh-saudi-arabia {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 400 14px/24px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.carpenter {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._125-faraway-street-al-olaya-riyadh-saudi-arabia {
+  color: var(--text-description, #606774);
+  text-align: justified;
+  font: var(--multiline-regular-relaxed, 400 14px/24px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.barista {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.location-marker6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.location-marker7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.location-marker8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.accountant {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cleaner {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.location-marker11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.location-marker12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.teller {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.electrician {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker14 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.waiter {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.location-marker15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.location-marker16 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.input-field {
+  height: 40px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--outline-outline, #E4E4E4);
+  background: var(--primitive-white, #FFF);
+  width: 100%;
+}
+
+.input-field:focus {
+  border: 2px solid var(--outline-outline, #beac6f);
+  outline: none;
+}

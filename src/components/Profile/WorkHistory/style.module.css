@@ -1,0 +1,22 @@
+.icon-button,
+.icon-button * {
+  box-sizing: border-box;
+}
+.icon-button {
+  background: var(--utility-danger-base, #db4343);
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.trash {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}

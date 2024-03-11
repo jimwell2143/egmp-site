@@ -1,0 +1,805 @@
+.container-filled,
+.container-filled * {
+  box-sizing: border-box;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.which-type-of-user-would-you-like-to-register-as {
+  color: var(--text-heading, #323943);
+  text-align: center;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.pick-a-user-type-below {
+  color: var(--text-description, #606774);
+  text-align: center;
+  font: var(--caption-regular, 500 12px/16px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+}
+.gmp-card {
+  background: var(--primary-muted, #f9f6f1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  background: var(--background-light, #fafafa);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.miscellaneous {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+.vector {
+  width: 120px;
+  height: 89.56px;
+  position: absolute;
+  left: calc(50% - 60px);
+  top: calc(50% - 45px);
+}
+.path-12 {
+  position: absolute;
+  left: 1.96px;
+  top: 73.62px;
+  transform: translate(0px, -45.88px);
+  overflow: visible;
+}
+.path-14 {
+  position: absolute;
+  left: 15.99px;
+  top: 47.49px;
+  transform: translate(0px, -18.26px);
+  overflow: visible;
+}
+.path-16 {
+  position: absolute;
+  left: 5.87px;
+  top: 45.14px;
+  transform: translate(0px, -44.15px);
+  overflow: visible;
+}
+.path-18 {
+  position: absolute;
+  left: 9.36px;
+  top: 45.14px;
+  transform: translate(0px, -15.58px);
+  overflow: visible;
+}
+.path-20 {
+  position: absolute;
+  left: 17.62px;
+  top: 39.42px;
+  transform: translate(0px, -8.68px);
+  overflow: visible;
+}
+.path-22 {
+  position: absolute;
+  left: 22.64px;
+  top: 16.74px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-24 {
+  position: absolute;
+  left: 5.99px;
+  top: 19.47px;
+  transform: translate(0px, -18.61px);
+  overflow: visible;
+}
+.path-26 {
+  position: absolute;
+  left: 0px;
+  top: 73.62px;
+  transform: translate(0px, -25.74px);
+  overflow: visible;
+}
+.path-28 {
+  position: absolute;
+  left: 39.71px;
+  top: 28.31px;
+  transform: translate(0px, -7.34px);
+  overflow: visible;
+}
+.path-30 {
+  position: absolute;
+  left: 3.21px;
+  top: 28.31px;
+  transform: translate(0px, -7.34px);
+  overflow: visible;
+}
+.path-32 {
+  position: absolute;
+  left: 11.83px;
+  top: 67.68px;
+  transform: translate(0px, -19.8px);
+  overflow: visible;
+}
+.path-34 {
+  position: absolute;
+  left: 27.69px;
+  top: 27.66px;
+  transform: translate(0px, -3.86px);
+  overflow: visible;
+}
+.path-36 {
+  position: absolute;
+  left: 14.49px;
+  top: 27.66px;
+  transform: translate(0px, -3.86px);
+  overflow: visible;
+}
+.path-38 {
+  position: absolute;
+  left: 12.4px;
+  top: 21.5px;
+  transform: translate(0px, -1.25px);
+  overflow: visible;
+}
+.path-40 {
+  position: absolute;
+  left: 27.97px;
+  top: 21.5px;
+  transform: translate(0px, -1.25px);
+  overflow: visible;
+}
+.path-42 {
+  position: absolute;
+  left: 19.88px;
+  top: 36.77px;
+  transform: translate(0px, -1.48px);
+  overflow: visible;
+}
+.path-44 {
+  position: absolute;
+  left: 20.37px;
+  top: 39.65px;
+  transform: translate(0px, -2.01px);
+  overflow: visible;
+}
+.path-46 {
+  position: absolute;
+  left: 20.37px;
+  top: 30.8px;
+  transform: translate(0px, -3px);
+  overflow: visible;
+}
+.path-50 {
+  position: absolute;
+  left: 77.15px;
+  top: 71.06px;
+  transform: translate(0px, -43.36px);
+  overflow: visible;
+}
+.g-52 {
+  position: absolute;
+  inset: 0;
+}
+.clip-path-group {
+  width: 14.05px;
+  height: 3.8px;
+  position: static;
+}
+.clip-path-58 {
+  position: absolute;
+  left: 90.72px;
+  top: 46.88px;
+  overflow: visible;
+}
+.g-54 {
+  position: absolute;
+  left: 90.72px;
+  top: 46.88px;
+  transform: translate(0px, -3.8px);
+  overflow: visible;
+}
+.path-62 {
+  position: absolute;
+  left: 80.93px;
+  top: 44.6px;
+  transform: translate(0px, -42.73px);
+  overflow: visible;
+}
+.path-64 {
+  position: absolute;
+  left: 97.55px;
+  top: 44.6px;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.path-66 {
+  position: absolute;
+  left: 88.45px;
+  top: 44.6px;
+  transform: translate(0px, -24.53px);
+  overflow: visible;
+}
+.path-68 {
+  position: absolute;
+  left: 95.13px;
+  top: 33.19px;
+  transform: translate(0px, -2.1px);
+  overflow: visible;
+}
+.path-70 {
+  position: absolute;
+  left: 113.7px;
+  top: 31.51px;
+  transform: translate(0px, -7.1px);
+  overflow: visible;
+}
+.path-72 {
+  position: absolute;
+  left: 113.7px;
+  top: 31.51px;
+  transform: translate(0px, -7.1px);
+  overflow: visible;
+}
+.path-74 {
+  position: absolute;
+  left: 77.75px;
+  top: 31.51px;
+  transform: translate(0px, -7.1px);
+  overflow: visible;
+}
+.path-76 {
+  position: absolute;
+  left: 89.46px;
+  top: 26.75px;
+  transform: translate(0px, -3.47px);
+  overflow: visible;
+}
+.path-78 {
+  position: absolute;
+  left: 101.53px;
+  top: 26.75px;
+  transform: translate(0px, -3.47px);
+  overflow: visible;
+}
+.path-80 {
+  position: absolute;
+  left: 75.6px;
+  top: 73.62px;
+  transform: translate(0px, -27.84px);
+  overflow: visible;
+}
+.path-82 {
+  position: absolute;
+  left: 87.16px;
+  top: 66.95px;
+  transform: translate(0px, -21.17px);
+  overflow: visible;
+}
+.path-84 {
+  position: absolute;
+  left: 97.54px;
+  top: 66.95px;
+  transform: translate(0px, -0.09px);
+  overflow: visible;
+}
+.path-86 {
+  position: absolute;
+  left: 97.68px;
+  top: 66.91px;
+  transform: translate(0px, -21.13px);
+  overflow: visible;
+}
+.path-88 {
+  position: absolute;
+  left: 79.53px;
+  top: 24.03px;
+  transform: translate(0px, -6.24px);
+  overflow: visible;
+}
+.path-90 {
+  position: absolute;
+  left: 105.23px;
+  top: 68.98px;
+  transform: translate(0px, -3.1px);
+  overflow: visible;
+}
+.path-92 {
+  position: absolute;
+  left: 78.9px;
+  top: 24.03px;
+  transform: translate(0px, -24.03px);
+  overflow: visible;
+}
+.path-94 {
+  position: absolute;
+  left: 79.71px;
+  top: 15.31px;
+  transform: translate(0px, -15.31px);
+  overflow: visible;
+}
+.path-96 {
+  position: absolute;
+  left: 107.26px;
+  top: 15.31px;
+  transform: translate(0px, -11.35px);
+  overflow: visible;
+}
+.path-98 {
+  position: absolute;
+  left: 84.96px;
+  top: 10.78px;
+  transform: translate(0px, -6.15px);
+  overflow: visible;
+}
+.path-100 {
+  position: absolute;
+  left: 92.84px;
+  top: 39.19px;
+  transform: translate(0px, -4.39px);
+  overflow: visible;
+}
+.path-102 {
+  position: absolute;
+  left: 42.13px;
+  top: 82.26px;
+  transform: translate(0px, -71.08px);
+  overflow: visible;
+}
+.path-104 {
+  position: absolute;
+  left: 34.52px;
+  top: 89.56px;
+  transform: translate(0px, -37.77px);
+  overflow: visible;
+}
+.path-106 {
+  position: absolute;
+  left: 54.33px;
+  top: 58.36px;
+  transform: translate(0px, -4.13px);
+  overflow: visible;
+}
+.path-108 {
+  position: absolute;
+  left: 44.67px;
+  top: 56.74px;
+  transform: translate(0px, -45.44px);
+  overflow: visible;
+}
+.path-110 {
+  position: absolute;
+  left: 44.67px;
+  top: 56.74px;
+  transform: translate(0px, -45.44px);
+  overflow: visible;
+}
+.path-112 {
+  position: absolute;
+  left: 53.69px;
+  top: 56.74px;
+  transform: translate(0px, -44.75px);
+  overflow: visible;
+}
+.path-114 {
+  position: absolute;
+  left: 58.83px;
+  top: 45.82px;
+  transform: translate(0px, -2.18px);
+  overflow: visible;
+}
+.path-116 {
+  position: absolute;
+  left: 44.67px;
+  top: 32.15px;
+  transform: translate(0px, -20.85px);
+  overflow: visible;
+}
+.path-118 {
+  position: absolute;
+  left: 65.3px;
+  top: 39.58px;
+  transform: translate(0px, -3.7px);
+  overflow: visible;
+}
+.path-120 {
+  position: absolute;
+  left: 73.53px;
+  top: 39.91px;
+  transform: translate(0px, -11.31px);
+  overflow: visible;
+}
+.path-122 {
+  position: absolute;
+  left: 44.67px;
+  top: 39.91px;
+  transform: translate(0px, -11.79px);
+  overflow: visible;
+}
+.path-124 {
+  position: absolute;
+  left: 42.17px;
+  top: 28.5px;
+  transform: translate(0px, -17.32px);
+  overflow: visible;
+}
+.path-126 {
+  position: absolute;
+  left: 49.81px;
+  top: 21.39px;
+  transform: translate(0px, -5.79px);
+  overflow: visible;
+}
+.path-128 {
+  position: absolute;
+  left: 66.38px;
+  top: 37.15px;
+  transform: translate(0px, -1.27px);
+  overflow: visible;
+}
+.path-130 {
+  position: absolute;
+  left: 53.14px;
+  top: 39.58px;
+  transform: translate(0px, -3.7px);
+  overflow: visible;
+}
+.path-132 {
+  position: absolute;
+  left: 50.99px;
+  top: 37.15px;
+  transform: translate(0px, -1.27px);
+  overflow: visible;
+}
+.path-134 {
+  position: absolute;
+  left: 50.66px;
+  top: 33.68px;
+  transform: translate(0px, -1.19px);
+  overflow: visible;
+}
+.path-136 {
+  position: absolute;
+  left: 65.57px;
+  top: 33.68px;
+  transform: translate(0px, -1.19px);
+  overflow: visible;
+}
+.path-138 {
+  position: absolute;
+  left: 34.52px;
+  top: 89.56px;
+  transform: translate(0px, -30.39px);
+  overflow: visible;
+}
+.path-140 {
+  position: absolute;
+  left: 86.53px;
+  top: 73.62px;
+  overflow: visible;
+}
+.path-142 {
+  position: absolute;
+  left: 86.53px;
+  top: 72.06px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-144 {
+  position: absolute;
+  left: 86.53px;
+  top: 72.04px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-146 {
+  position: absolute;
+  left: 86.53px;
+  top: 72.02px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-148 {
+  position: absolute;
+  left: 86.53px;
+  top: 72px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-150 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.98px;
+  overflow: visible;
+}
+.path-152 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.96px;
+  transform: translate(0px, -0.02px);
+  overflow: visible;
+}
+.path-154 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.93px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-156 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.91px;
+  overflow: visible;
+}
+.path-158 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.89px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-160 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.87px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-162 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.85px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-164 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.83px;
+  transform: translate(0px, -0.02px);
+  overflow: visible;
+}
+.path-166 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.81px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-168 {
+  position: absolute;
+  left: 86.53px;
+  top: 71.79px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-170 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.77px;
+  overflow: visible;
+}
+.path-172 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.75px;
+  overflow: visible;
+}
+.path-174 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.73px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-176 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.67px;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.path-178 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.66px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-180 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.64px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-182 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.62px;
+  transform: translate(0px, -0.01px);
+  overflow: visible;
+}
+.path-184 {
+  position: absolute;
+  left: 86.52px;
+  top: 71.6px;
+  overflow: visible;
+}
+.path-186 {
+  position: absolute;
+  left: 86.51px;
+  top: 71.51px;
+  overflow: visible;
+}
+.path-188 {
+  position: absolute;
+  left: 75.84px;
+  top: 89.56px;
+  transform: translate(0px, -30.07px);
+  overflow: visible;
+}
+.path-190 {
+  position: absolute;
+  left: 50.18px;
+  top: 86.53px;
+  transform: translate(0px, -27.36px);
+  overflow: visible;
+}
+.path-192 {
+  position: absolute;
+  left: 49.43px;
+  top: 59.17px;
+  transform: translate(0px, -0.02px);
+  overflow: visible;
+}
+.path-194 {
+  position: absolute;
+  left: 44.27px;
+  top: 87.69px;
+  transform: translate(0px, -28.52px);
+  overflow: visible;
+}
+.path-196 {
+  position: absolute;
+  left: 71.01px;
+  top: 59.17px;
+  transform: translate(0px, -0.02px);
+  overflow: visible;
+}
+.path-198 {
+  position: absolute;
+  left: 60.67px;
+  top: 87.69px;
+  transform: translate(0px, -28.52px);
+  overflow: visible;
+}
+.path-200 {
+  position: absolute;
+  left: 45.36px;
+  top: 86.53px;
+  transform: translate(0px, -27.36px);
+  overflow: visible;
+}
+.path-202 {
+  position: absolute;
+  left: 60.63px;
+  top: 86.53px;
+  transform: translate(0px, -27.36px);
+  overflow: visible;
+}
+.path-206 {
+  position: absolute;
+  left: 54.78px;
+  top: 49.9px;
+  transform: translate(0px, -3.7px);
+  overflow: visible;
+}
+.employer {
+  color: var(--text-description, #606774);
+  text-align: center;
+  font: var(--monoline-semibold, 600 14px/16px "Inter", sans-serif);
+  position: relative;
+  width: 152px;
+}
+.vector2 {
+  position: absolute;
+  left: calc(50% - 60px);
+  top: calc(50% - 50px);
+  overflow: visible;
+}
+.sign-up {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.already-have-an-account {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--caption-regular, 500 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.text-button {
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.now {
+  color: var(--text-description, #606774);
+  text-align: left;
+  font: var(--caption-regular, 500 12px/16px "Inter", sans-serif);
+  position: relative;
+}

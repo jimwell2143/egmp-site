@@ -1,0 +1,361 @@
+
+.container-filled,
+.container-filled * {
+  box-sizing: border-box;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1312px;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-button {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  background: var(--primary-base, #beac6f);
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.pencil-alt {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.edit-personal-information {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--heading-semibold, 600 20px/24px "Inter", sans-serif);
+  position: relative;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.row {
+  background: var(--background-light, #fafafa);
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.profile-picture {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.profile-picture2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  position: relative;
+}
+.content2 {
+  border-radius: 11.2px;
+  padding: 28px 26.6px 28px 26.6px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.position-applying-for {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.position {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.cook {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.source-of-application {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.method-of-application {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.online {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.row2 {
+  background: var(--primitive-white, #ffffff);
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.source-of-application2 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.facebook {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.name-of-applicant {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.last-name {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.dela-cruz {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.first-name {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.juan {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.middle-name {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.santos {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.suffix {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.other-information {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.date-of-birth {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._10-24-1997 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.gender {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.male {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.civil-status {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.single {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.nationality {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.filipino {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.religion {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.catholic {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.cv {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.paper-clip {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.j-delacruz-cv-pdf {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: 400 14px/20px "Inter", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  flex: 1;
+}

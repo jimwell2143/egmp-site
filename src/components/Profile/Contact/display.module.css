@@ -1,0 +1,227 @@
+.container-filled,
+.container-filled * {
+  box-sizing: border-box;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1312px;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-button {
+  background: var(--primary-hover, #ad9c66);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  background: var(--primary-base, #beac6f);
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.pencil-alt {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.edit-contact-information {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--heading-semibold, 600 20px/24px "Inter", sans-serif);
+  position: relative;
+}
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-information {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.row {
+  background: var(--background-light, #fafafa);
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-address {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.j-delacruz-email-com {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.row2 {
+  background: var(--primitive-white, #ffffff);
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mobile-no {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._63-9123456789 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.telephone-no {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+
+.address {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: var(--overline-bold, 700 12px/16px "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.region {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.metro-manila {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.province {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.manila-district-4 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.city-municipality {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.makati {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.barangay {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.legazpi {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.address-line {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._123-faraway-street {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}

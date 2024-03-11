@@ -1,0 +1,306 @@
+.container-filled,
+.container-filled * {
+  box-sizing: border-box;
+}
+.container-filled {
+  background: var(--primitive-white, #ffffff);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 908px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.birth-certificate {
+  color: var(--text-heading, #323943);
+  text-align: left;
+  font: var(--page-title-semibold, 600 24px/32px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.badge {
+  background: var(--utility-success-base, gray);
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.badge2 {
+  color: var(--primitive-white, #ffffff);
+  text-align: left;
+  font: var(--caption-semibold, 600 12px/16px "Inter", sans-serif);
+  position: relative;
+}
+.icon-button {
+  background: var(--background-light, #fafafa);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--outline-outline, #e4e4e4);
+  border-width: 1px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.pencil-alt {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.divider {
+  background: var(--outline-outline, #e4e4e4);
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1px;
+  position: relative;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.row {
+  background: var(--background-light, #fafafa);
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.serial-no {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._1234567890 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.row2 {
+  background: var(--primitive-white, #ffffff);
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.received-date {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._10-24-2023 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.file-attached {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.view {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.sample-pdf {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+}
+.text-button {
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  color: var(--primary-base, #beac6f);
+  text-align: left;
+  font: 600 12px/16px "Poppins", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.issue-date {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._10-24-1998 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.expiry-date {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._10-24-2030 {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.expiry-in {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._120-days {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.received-by {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.jane-doe {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.authenticated {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.yes {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+._201-copy {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.no {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.released-date {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.released-by {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.remarks {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-semibold-normal, 600 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.legazpi {
+  color: var(--text-body, #454545);
+  text-align: left;
+  font: var(--multiline-regular-normal, 400 14px/20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
