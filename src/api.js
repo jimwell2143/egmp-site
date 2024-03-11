@@ -4,9 +4,9 @@ import { toast } from 'react-toastify';
 import Cookie from 'js-cookie';
 
 export const api = axios.create({
-    baseURL: "http://ec2-18-143-159-93.ap-southeast-1.compute.amazonaws.com"
+    baseURL: "http://13.213.71.132:8080"
 })
-
+// http://13.213.71.132/
 api.interceptors.request.use(
     config => {
       const token = Cookie.get('token');
