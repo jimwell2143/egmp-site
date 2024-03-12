@@ -9,12 +9,13 @@ import { useAction, useSelect } from "../../../hooks";
 import { get } from "lodash";
 
 function UploadJobOfferModal({ 
+  id,
   onClose, 
   initialValues
 }) {
 
-  // const updateApplication = useAction('application.updateApplication');
-  // const getApplicationList = useAction('application.getApplicationList');
+  const updateApplication = useAction('manpower.updateApplication');
+  const getApplicationLogs = useAction('manpower.getApplicationLogs');
 
   const [selectedFileRecruitment, setSelectedFileRecruitment] = useState(initialValues.job_offer);
 
@@ -45,17 +46,20 @@ function UploadJobOfferModal({
     <Formik
       initialValues={initialValues}
       onSubmit={async (values) => {
+        let payload = {
+          log:false,
+          job_offer: `${selectedFileRecruitment}`,
+          status: "SELECTED"
+        }
 
-        onClose();
-
-
-        // let payload = {
-        //   job_offer: `https://${selectedFileRecruitment}`,
-        //   status: "PASSED"
-        // }
+        updateApplication(id, payload, (data) => {
+          console.log("updateApplicationresponse", data)
+          getApplicationLogs();
+          onClose()
+        })
 
         // updateApplication(initialValues.id, payload, () => {
-        //   const obj: any = {
+        //   const obj = {
         //     per_page: 40,
         //     page: 1,
         //     "status[0]": "PASSED"

@@ -28,6 +28,19 @@ export const createManpower = (payload, callback = () => { }) => async (dispatch
   }
 }
 
+
+export const updateApplication = (id, payload, callback = (data) => { }) => async (dispatch) => {
+  try {
+    const { data } = await api.put(`api/ste/application/${id}`, payload)
+
+    await callback(data)
+
+  } catch (e) {
+    console.log(e)
+  }
+}
+
+
 export const getApplicationLogs = (params, callback = () => { }) => async (dispatch) => {
   try {
     const { data } = await api.get(`api/ste/application_logs`, {

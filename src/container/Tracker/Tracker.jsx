@@ -48,12 +48,14 @@ const Tracker = () => {
         }
     }, [profileSelected]);
 
-    console.log("profileSelected", get(profileSelected, 'applications', ""))
+    console.log("profileSelected", applicationLogList)
     const [activeTab, setActiveTab] = useState(1);
 
     const handleTabClick = (tab) => {
         setActiveTab(tab);
       };
+
+      
 
     return (
         <>
@@ -363,19 +365,22 @@ const Tracker = () => {
 
                             {data.event == "SELECTED" &&
                               <>
+                              
                                <div className={styles["october-24-2023-10-00-00-am"]}>
                               {data.created_at} 
                               </div>
                               <div className={styles["ddfds"]}>
                                 {data.payload.remarks || data.payload.employer_interview_remarks || 'N/A'}
                               </div>
+
+                              {/* {data.application.job_offer == null &&  */}
                                   <div className={buttonStyle["frame-46464"]}>
                               <div className={buttonStyle["solid-button"]} style={{cursor: "pointer"}} onClick={(e) => {
                                         createModal({
                                             title: "Blacklist",
                                             content: (close) => (
                                                 <UploadJobOfferModal 
-                                                  id="1"
+                                                  id={data.application.id}
                                                   onClose={close}
                                                   initialValues={{
                                                     job_offer: get(profileSelected, 'applications[0].job_offer', "")
@@ -395,7 +400,7 @@ const Tracker = () => {
                                 <div className={buttonStyle["button"]}>Decline Job Offer </div>
                               </div>
                             </div>
-                      
+                     
                               </>
                             }
 

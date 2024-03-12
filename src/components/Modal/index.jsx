@@ -1,6 +1,7 @@
 
 import { createRoot } from "react-dom/client"
 import Modal from "./ModalBody"
+import Providers from '../../store/Providers';
 
 export const ModalMarker = () => {
     return <div id="modal-marker" />
@@ -26,6 +27,7 @@ export const createModal = ({
     }
     
     root.render(
+        <Providers>
         <Modal
             title={title}
             hideTitle={hideTitle}
@@ -35,5 +37,6 @@ export const createModal = ({
         >
             {content(closeModal)}
         </Modal>
+        </Providers>
     )
 }
