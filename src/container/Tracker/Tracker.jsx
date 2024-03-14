@@ -266,7 +266,18 @@ const Tracker = () => {
                                       <div className={styles["badge2"]}>{data.event} </div>
                                     </div>
                                     </>
-                                  }                             
+                                  }                
+                                      {data.event == "MOBILIZATION" &&
+                                    <>
+                                    <div className={styles["accepted-application"]}>
+                                   For Mobilization
+                                  </div>
+                                    <div className={styles["badge5"]} style={{backgroundColor: "#54D468"}}>
+                                      <div className={styles["badge2"]}>{data.event} </div>
+                                    </div>
+                                    </>
+                                    
+                                  }             
 
                                   {data.event == "PASSED" &&
                                     <>
