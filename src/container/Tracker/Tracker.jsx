@@ -277,9 +277,9 @@ const Tracker = () => {
                                     </div>
                                     </>
                                     
-                                  }             
+                                  }    
 
-                                  {data.event == "PASSED" &&
+                                {data.event == "PASSED" && !(get(data, 'payload.remarks', "") || "").includes("JOB OFFER") &&
                                     <>
                                     <div className={styles["accepted-application"]}>
                                     Interviewed by Employer
@@ -289,7 +289,21 @@ const Tracker = () => {
                                     </div>
                                     </>
                                     
+                                  }         
+
+                                  {data.event == "PASSED" && (get(data, 'payload.remarks', "") || "").includes("JOB OFFER") &&
+                                    <>
+                                    <div className={styles["accepted-application"]}>
+                                    Job Offer
+                                  </div>
+                                    <div className={styles["badge5"]} style={{backgroundColor: "#54D468"}}>
+                                      <div className={styles["badge2"]}>{data.event} </div>
+                                    </div>
+                                    </>
+                                    
                                   }
+
+                                
 
                                   {data.event == "HOLD" &&
                                     <>
@@ -318,7 +332,7 @@ const Tracker = () => {
                                   {data.event == "SELECTED" &&
                                     <>
                                     <div className={styles["accepted-application"]}>
-                                    Job Offer
+                                    Selected
                                   </div>
                                     <div className={styles["badge5"]} style={{backgroundColor: "#54D468"}}>
                                       <div className={styles["badge2"]}>{data.event} </div>
@@ -374,6 +388,52 @@ const Tracker = () => {
                               </>
                             }
 
+
+                          {data.event == "PASSED" && (get(data, 'payload.remarks', "") || "").includes("JOB OFFER") &&
+                              <>
+                              
+                               <div className={styles["october-24-2023-10-00-00-am"]}>
+                              {data.created_at} 
+                              </div>
+                              <div className={styles["ddfds"]}>
+                                {data.payload.remarks || data.payload.employer_interview_remarks || 'N/A'}
+                              </div>
+
+                              {data.application.job_offer == null && 
+                                  <div className={buttonStyle["frame-46464"]}>
+                              <div className={buttonStyle["solid-button"]} style={{cursor: "pointer"}} onClick={(e) => {
+                                        createModal({
+                                            title: "Blacklist",
+                                            content: (close) => (
+                                                <UploadJobOfferModal 
+                                                  id={data.application.id}
+                                                  onClose={close}
+                                                  initialValues={{
+                                                    job_offer: get(data, 'payload.view_job_offer_url', "")
+                                                  }}
+                                                />
+                                            ),
+                                            size: "sm",
+                                        })
+                                      }}>
+                                <div className={buttonStyle["content"]}>
+                                  <div className={buttonStyle["button"]}>Upload Signed Job Offer </div>
+                                </div>
+                              </div>
+                              <div className={buttonStyle["solid-button2"]} style={{cursor: "pointer"}} onClick={(e) => {
+                                       toast.success("Successfully Declined Job Offer", { position: 'top-right' })
+                                      }}>
+                                <div className={buttonStyle["button"]}>Decline Job Offer </div>
+                              </div>
+                            </div>
+                            }
+                              </>
+                            }
+
+            
+
+
+
                             {data.event == "SELECTED" &&
                               <>
                               
@@ -385,7 +445,7 @@ const Tracker = () => {
                               </div>
 
                               {/* {data.application.job_offer == null &&  */}
-                                  <div className={buttonStyle["frame-46464"]}>
+                                  {/* <div className={buttonStyle["frame-46464"]}>
                               <div className={buttonStyle["solid-button"]} style={{cursor: "pointer"}} onClick={(e) => {
                                         createModal({
                                             title: "Blacklist",
@@ -410,13 +470,13 @@ const Tracker = () => {
                                       }}>
                                 <div className={buttonStyle["button"]}>Decline Job Offer </div>
                               </div>
-                            </div>
+                            </div> */}
                      
                               </>
                             }
 
 
-                            {data.event != "SCREENED" && data.event != "SELECTED" &&
+                            {data.event != "SCREENED" && data.event != "SELECTED" && !(get(data, 'payload.remarks', "") || "").includes("JOB OFFER") &&
                              <>     
                               <div className={styles["october-24-2023-10-00-00-am"]}>
                               {data.created_at} 

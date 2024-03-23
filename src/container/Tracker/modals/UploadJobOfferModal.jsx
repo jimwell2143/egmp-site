@@ -49,7 +49,7 @@ function UploadJobOfferModal({
         let payload = {
           log:false,
           job_offer: `${selectedFileRecruitment}`,
-          status: "SELECTED"
+          status: "PASSED"
         }
 
         updateApplication(id, payload, (data) => {
